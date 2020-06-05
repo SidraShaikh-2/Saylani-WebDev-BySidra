@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order now</title>
+    <link rel="stylesheet" href="styleordernow.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+    <nav  class="nav">
+        <div class="container">
+            <div class="logo">
+                <a class="navbar-brand">
+					<img class="logopng" src="graphicdutynew.png" alt="logo" width="90px">
+				</a>
+            </div>
+            <div class="main_list" id="mainListDiv">
+                <ul class="rotate">
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li><a href="ourwork.html">Our work</a></li>
+                    <li><a href="ordernow.html">Order</a></li>
+                    <li><a href="about.html">About us</a></li>
+                </ul>
+            </div>
+            <div class="media_button">
+                <button class="main_media_button" id="mediaButton">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+<br>
+    <h2 align="center">Scope and Pricing</h2>
+
+<table class="table1">
+  <tr>
+    <th>Graphic designing</th>
+    <th>This package includes a one standard design of your required thing with 3 revisions and the source file.</th>
+    
+  </tr>
+  <tr>
+    <td>Days of delivery</td>
+    <td>2</td>
+    
+  </tr>
+  <tr>
+    <td>Source files</td>
+    <td>Ai, psd, jpeg, png, pdf, etc.</td>
+   
+  </tr>
+  <tr>
+    <td>High Resolution</td>
+    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+   
+  </tr>
+  <tr>
+    <td>Background/Scene</td>
+    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+    
+  </tr>
+  <tr>
+    <td>Color</td>
+    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+    
+  </tr>
+  <tr>
+    <td>Full Body</td>
+    <td><i class="fa fa-check" aria-hidden="true"></i></td>
+   
+  </tr>
+  <tr>
+    <td>Price</td>
+    <td>$5 for one design</td>
+   
+  </tr>
+  <br>
+</table>
+<br>
+
+    <div  class="row">
+        <div class="col-75">
+          <div class="container2">
+            <form action="thankyou.html" >
+      
+              <div class="row">
+                <div class="col-50">
+                   
+                  <h3>Provide your details</h3>
+                  <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                  <input type="text" id="email" name="email" placeholder="john@example.com">
+                  <!-- <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                  <input type="text" id="adr" name="address" placeholder="542 W. 15th Street"> -->
+                  <label for="city"><i class="fa fa-institution"></i> City</label>
+                  <input type="text" id="city" name="city" placeholder="New York">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="state">State</label>
+                      <input type="text" id="state" name="state" placeholder="NY">
+                    </div>
+
+                    
+                    <!-- <div class="col-50">
+                      <label for="zip">Zip</label>
+                      <input type="text" id="zip" name="zip" placeholder="10001">
+                    </div> -->
+                  </div>
+                </div>
+                <div class="col-50">
+                    <br>
+                    <h3>Provide order details</h3>
+                    <label for="fname"><i class="fa fa-product-hunt" aria-hidden="true"></i>Name of product</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Poster/flyer/banner etc">
+                    <label for="email"><i class="fa fa-sort-numeric-asc" aria-hidden="true"></i> Quantity</label>
+                    <input type="text" id="email" name="email" placeholder="1 or 2 etc">
+                    <label for="adr"><i class="fa fa-calendar" aria-hidden="true"></i> Date of delivery (Note: This is the estimated date by the buyer till when he/she want the order to be delivered)</label>
+                    <input type="text" id="adr" name="address" placeholder="1/1/2020">
+                    <label for="city"><i class="fa fa-info" aria-hidden="true"></i> Order details</label>
+                    <textarea placeholder="Dimensions, format, theme, color contrast etc" name="message" rows="10" cols="100"></textarea>
+        
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="state">Upload related files(e.g logo png)</label>
+                        <input type="file" id="myFile" name="filename">
+                      </div>
+  
+                      
+                      <!-- <div class="col-50">
+                        <label for="zip">Zip</label>
+                        <input type="text" id="zip" name="zip" placeholder="10001">
+                      </div> -->
+                    </div>
+                  </div>
+      
+                <div class="col-50">
+                    <br>
+                  <h3>Payment</h3>
+                  <label for="fname">Accepted Cards</label>
+                  <div class="icon-container2">
+                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                  </div>
+                  <label for="cname">Name on Card</label>
+                  <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                  <label for="ccnum">Credit card number</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                  <label for="expmonth">Exp Month</label>
+                  <input type="text" id="expmonth" name="expmonth" placeholder="September">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Exp Year</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="2018">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="352">
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+              <!-- <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+              </label> -->
+              <table>
+              <tr>
+              <td  colspan="2" align="center">
+                <input class="btn" type="submit" value="Submit">
+                <input class="btn" type="reset" value="Reset">
+                
+                </td></tr></table>
+            </form>
+          </div>
+        </div>
+      
+        <!-- <div class="col-25">
+          <div class="container2">
+            <h4>Cart
+              <span class="price" style="color:black">
+                <i class="fa fa-shopping-cart"></i>
+                <b>4</b>
+              </span>
+            </h4>
+            <p><a href="#">Product 1</a> <span class="price">$15</span></p>
+            <p><a href="#">Product 2</a> <span class="price">$5</span></p>
+            <p><a href="#">Product 3</a> <span class="price">$8</span></p>
+            <p><a href="#">Product 4</a> <span class="price">$2</span></p>
+            <hr>
+            <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+          </div>
+        </div>
+      </div> -->
+      
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up fa-3x" aria-hidden="true"></i></button>
+   
+   
+      <!-- //Get to top-->
+     <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+            
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+    <!-- nav script  -->
+<script>
+    var mainListDiv = document.getElementById("mainListDiv"),
+  mediaButton = document.getElementById("mediaButton");
+  
+  mediaButton.onclick = function () {
+  
+  "use strict";
+  
+  mainListDiv.classList.toggle("show_list");
+  mediaButton.classList.toggle("active");
+  
+  };
+  </script>
+</body>
+</html>

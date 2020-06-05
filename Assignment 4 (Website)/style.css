@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.4s;
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(QuiteMagicalRegular-8VA2.ttf);
+  }
+  @font-face {
+    font-family: cartoon;
+    src: url(AlloyInk-nRLyO.ttf);
+  }
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Navbar section */
+
+.nav{
+    width: 100%;
+    height: 101px;
+    
+    line-height: 100px;
+    text-align: center;
+    background-color:rgb(75, 70, 59);
+}
+
+.logopng{
+    margin-bottom: 40px;
+    margin-left:-100px;
+   
+}
+.nav div.logo{
+    width: 180px;
+    height: 10px;
+    position: absolute;
+}
+
+.nav div.logo a{
+    text-decoration: none;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+
+
+.nav div.main_list{
+    width: 600px;
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul{
+    width:100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+}
+
+.nav div.main_list ul li{
+    width: 120px;
+    height: 65px;
+}
+
+.nav div.main_list ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-family: myFirstFont;
+    font-size: 34px;
+    
+}
+
+
+.nav div.main_list ul li a:hover{
+    color: red;
+}
+
+.nav div.media_button {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    display: none;
+}
+
+.nav div.media_button button.main_media_button {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.nav div.media_button button.main_media_button span{
+    width: 98%;
+    height: 1px;
+    display: block;
+    background-color:black;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+
+.nav div.media_button button.main_media_button:hover span:nth-of-type(1){
+    transform: rotateY(180deg);
+    transition: all 0.5s;
+}
+
+.nav div.media_button button.main_media_button:hover span:nth-of-type(2){
+    transform: rotateY(180deg);
+    transition: all 0.4s;
+}
+
+.nav div.media_button button.main_media_button:hover span:nth-of-type(3){
+    transform: rotateY(180deg);
+    transition: all 0.3s;
+    
+}
+
+.nav div.media_button button.active span:nth-of-type(1) {
+    transform: rotate3d(0, 0, 1, 45deg);
+    position: absolute;
+    margin: 0;
+}
+
+.nav div.media_button button.active span:nth-of-type(2) {
+    display: none;
+}
+
+.nav div.media_button button.active span:nth-of-type(3) {
+    transform: rotate3d(0, 0, 1, -45deg);
+    position: absolute;
+    margin: 0;
+}
+
+.nav div.media_button button.active:hover span:nth-of-type(1) {
+    transform: rotate3d(0, 0, 1, 20deg);
+}
+
+.nav div.media_button button.active:hover span:nth-of-type(3) {
+    transform: rotate3d(0, 0, 1, -20deg);
+}
+
+/* Home section */
+
+/* .home{
+    width: 100%;
+    height: 100vh;
+    background-color: #ddd;
+} */
+.rotate {
+   
+    animation: bounceIn 0.6s;
+    
+    cursor: pointer;
+  }
+  
+  .rotate:hover {
+    transform:  scale(1.1);
+  }
+  
+  
+
+.logopng {
+   
+    animation: bounceIn 0.6s;
+    transform: rotate(0deg) scale(1) translateZ(0);
+    transition: all 0.4s cubic-bezier(.8,1.8,.75,.75);
+    cursor: pointer;
+  }
+  
+  .logopng:hover {
+    transform: rotate(10deg) scale(1.1);
+  }
+  
+  .bubble { fill: #e76853; }
+  .icon { fill:  #fff; }
+  
+  @keyframes bounceIn {
+    0% {
+      opacity: 1;
+      transform: scale(.3);
+    } 
+  
+    50% {
+      opacity: 1;
+      transform: scale(1.05);
+    } 
+  
+    70% {
+      opacity: 1;
+      transform: scale(.9);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .nav {
+    /* The image used */
+    background-image: url("BACKGROUND.jpg");
+  
+    min-height: 680px;
+    
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+  }
+  
+
+
+.p1{
+
+    text-align: justify;
+    font-size: 32px;
+    margin: 1% 15%;
+    color: black;
+}
+/* .About{
+    background-color:black;
+    
+} */
+.cn4
+{
+	padding: 5% 0%;
+	
+	padding: 5%;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #F2F2F2;
+}
+.card
+{
+  width: 300px;
+	margin: 7% 2%;
+  align-items: center;
+	color:black;
+	border: 0px;
+  box-shadow: 0px 3px 5px 3px #D7DBDD;
+  justify-content: space-around;
+  
+
+}
+.card:hover
+{
+	box-shadow: 0px 4px 5px 4px #BDC3C7;
+	transition: 0.7s;
+	transform: scale(1.04);
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+.body1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  background-color: orange;
+}
+
+.text {
+  position: absolute;
+  width: 450px;
+  left: 50%;
+  margin-left: -225px;
+  /* height: 40px;
+  top: 50%;
+  margin-top: -20px; */
+}
+
+p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 220px;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.wisteria {
+  color: #8e44ad;
+}
+
+.belize {
+  color: #2980b9;
+}
+
+.pomegranate {
+  color: #c0392b;
+}
+
+.green {
+  color: #16a085;
+}
+
+.midnight {
+  color: #2c3e50;
+}
+
+
+
+.media{
+  text-align: left;
+  
+}
+
+.cn3
+{
+	background-color: orange;
+	padding: 4% 3%;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+
+ /* footer */
+
+.divlast
+		{
+		  padding: 3% 7%;
+		  background-color: #25272E;
+			color: white;
+			font-family: sans-serif;
+		}
+
+		.footer
+		{
+		  font-size: 13px;
+		  background-color: orange;
+		  color: white;
+		  padding: 1% 1%;
+		  font-family: sans-serif;
+		}
+		.last{
+			font-size: 13px;
+		}
+    .fa {
+      color :orange;
+      padding: 2px;
+     
+    }
+
+    .mylist{
+      display: inline-flex;
+      
+    }
+
+/* go to top  */
+    #myBtn {
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      z-index: 99;
+     
+      border: none;
+      outline: none;
+      background-color:orangered;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0,0,0,0.25);
+      padding: -4px  ;
+     
+    }
+    
+    #myBtn:hover {
+      background-color: #555;
+    }
+    
+   
+  /* Medai qurey section nav */
+  @media screen and (max-width: 600px){
+    .card{
+      width: 100%;
+    }
+  }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .container{
+        margin: 0;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    
+    .container{
+        margin: 0;
+    }
+    
+    .nav div.logo{
+        margin-left: 15px;
+    }
+    
+    .nav div.main_list{
+        width: 100%;
+        margin-top: 65px;
+        height: 0px;
+        overflow: hidden;
+    }
+    
+    .nav div.show_list{
+        height: 200px;
+    }
+    
+    .nav div.main_list ul{
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        top: 80px;
+        right: 0;
+        left: 0;
+    }
+    
+    .nav div.main_list ul li{
+        width: 100%;
+        height: 40px;
+        background-color:darkgoldenrod;
+    }
+    
+    .nav div.main_list ul li a{
+      text-align: center;
+        line-height: 40px;
+        width: 100%;
+        height: 40px;
+        display: table;
+    }
+    
+    .nav div.media_button{
+        display: block;
+    }
+    .nav{
+      background-image: url(BACKGROUND.jpg);
+      min-height: 300px;
+      width:auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+  }
+  .body1{
+    display: none;
+  }
+
+  
+}
+
