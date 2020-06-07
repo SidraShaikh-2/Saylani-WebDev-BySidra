@@ -22,6 +22,7 @@ document.write("Now the value of a is "+a+"<br>");
 
 
 
+
 var a = 2;
 var b = 1;  
   //    --a  1   
