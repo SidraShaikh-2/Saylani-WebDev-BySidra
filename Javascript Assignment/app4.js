@@ -22,6 +22,7 @@ var var;
 var if;
 
 
+
 // 3. Display this in your browser
 //  a)  A heading stating “Rules for naming JS variables” 
 //  b)  Variable names can only contain ______, ______, ______ and ______. For example $my_1stVariable 
