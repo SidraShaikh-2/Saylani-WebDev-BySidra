@@ -61,6 +61,7 @@ for (var i=1; i<11; i++){
 }
 
 
+
 // 6. The Temperature Converter: It’s hot out! Let’s make a converter based on the steps here.
 // a.  Store a Celsius temperature into a variable.
 // b. Convert it to Fahrenheit & output “NNoC is NNoF”.
