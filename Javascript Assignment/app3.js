@@ -26,3 +26,4 @@ var product = "T-shirt(s)";
 var quantity = "5";
 document.write(name.bold()+" ordered "+quantity.bold()+" "+product.bold()+" on XYZ Clothing store");
 
+
