@@ -23,6 +23,7 @@ alert(b);
 alert(c);
 
 
+
 // 5. Write a script to display the following alert using one JS variable: 
 var d = "PIZZA\nPIZZ\nPIZ\nPI\nP";
 alert(d);
